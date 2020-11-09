@@ -1,4 +1,4 @@
-package iteration;
+package Iteration;
 
 public class coins {
     public static void main(String[] args) {

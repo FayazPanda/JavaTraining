@@ -1,4 +1,4 @@
-package conditional;
+package Conditional;
 
 public class sum {
 	public static void main(String[] args){
