@@ -1,4 +1,5 @@
-package Inheritance;
+package Encapsulation.Model;
+
 
 public class person {
 
