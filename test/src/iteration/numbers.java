@@ -13,11 +13,11 @@ public class numbers {
 			System.out.println(o);
 		}
 		for(String t : tens) {
-			for(int i = 0; i > 9;i++) {
+			for(int i = 0; i <= 9;i++) {
 				if(i == 0) {
-					System.out.println(tens);
+					System.out.println(t);
 				} else {
-					System.out.println(tens+"-"+units[i-1]);
+					System.out.println(t+"-"+units[i-1]);
 				}
 			}
 		}
