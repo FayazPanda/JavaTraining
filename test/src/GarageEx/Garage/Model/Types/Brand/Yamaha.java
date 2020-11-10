@@ -1,5 +1,5 @@
-package Polymorphism.Model.Types.Brand;
-import Polymorphism.Model.Types.Motorbike;
+package GarageEx.Garage.Model.Types.Brand;
+import GarageEx.Garage.Model.Types.Motorbike;
 
 public class Yamaha extends Motorbike {
     private int brandFee;

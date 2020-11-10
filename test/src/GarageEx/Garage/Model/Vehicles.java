@@ -1,4 +1,4 @@
-package Polymorphism.Model;
+package GarageEx.Garage.Model;
 
 public abstract class Vehicles {
     private int wheels;

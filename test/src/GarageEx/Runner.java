@@ -1,4 +1,6 @@
-import Polymorphism.Garage;
+package GarageEx;
+
+import GarageEx.Garage.Garage;
 
 public class Runner {
 

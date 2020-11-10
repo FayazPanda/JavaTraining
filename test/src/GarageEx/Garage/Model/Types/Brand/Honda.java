@@ -1,5 +1,5 @@
-package Polymorphism.Model.Types.Brand;
-import Polymorphism.Model.Types.Car;
+package GarageEx.Garage.Model.Types.Brand;
+import GarageEx.Garage.Model.Types.Car;
 
 public class Honda extends Car {
     private int brandFee;

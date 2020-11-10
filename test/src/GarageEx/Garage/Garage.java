@@ -1,10 +1,10 @@
-package Polymorphism;
+package GarageEx.Garage;
 
-import Polymorphism.Model.Types.Brand.Honda;
-import Polymorphism.Model.Types.Brand.Yamaha;
-import Polymorphism.Model.Types.Brand.Suzuki;
-import Polymorphism.Model.Types.Brand.Toyota;
-import Polymorphism.Model.Vehicles;
+import GarageEx.Garage.Model.Types.Brand.Honda;
+import GarageEx.Garage.Model.Types.Brand.Yamaha;
+import GarageEx.Garage.Model.Types.Brand.Suzuki;
+import GarageEx.Garage.Model.Types.Brand.Toyota;
+import GarageEx.Garage.Model.Vehicles;
 
 import java.util.Random;
 import java.util.ArrayList;

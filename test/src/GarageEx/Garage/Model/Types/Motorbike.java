@@ -1,5 +1,5 @@
-package Polymorphism.Model.Types;
-import Polymorphism.Model.Vehicles;
+package GarageEx.Garage.Model.Types;
+import GarageEx.Garage.Model.Vehicles;
 
 public abstract class Motorbike extends Vehicles {
     public String cooling;
