@@ -1,18 +1,18 @@
 package Inheritance.Model;
 
-public class animals {
+public class Animals {
 
     private String name;
     private String species;
     private int age;
 
-    public animals(){
+    public Animals(){
         name = "Dave";
         species = "hamster";
         age = 12;
     }
 
-    public animals(String name,String species,int age){
+    public Animals(String name, String species, int age){
         this.name = name;
         this.species = species;
         this.age = age;

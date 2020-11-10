@@ -1,6 +1,6 @@
 package Conditional;
 
-public class flowchart {
+public class Flowchart {
 	public static void main(String[] args){
 		System.out.println("Hello World");
 	}

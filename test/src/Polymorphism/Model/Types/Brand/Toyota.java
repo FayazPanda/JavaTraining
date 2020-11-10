@@ -1,16 +1,16 @@
 package Polymorphism.Model.Types.Brand;
-import Polymorphism.Model.Types.car;
+import Polymorphism.Model.Types.Car;
 
-public class toyota extends car {
-    public int brandFee;
+public class Toyota extends Car {
+    private int brandFee;
 
-    public toyota(){
+    public Toyota(){
         super();
         brandFee = 2000;
     }
 
-    public toyota(int wheels, String engine, int cYear,int seats,int brandFee){
-        super(wheels,engine,cYear,seats);
+    public Toyota(int wheels, String engine, int cYear, String plate, int seats, int brandFee){
+        super(wheels, engine, cYear, plate,seats);
         this.brandFee = brandFee;
     }
 

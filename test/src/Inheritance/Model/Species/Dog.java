@@ -1,10 +1,10 @@
 package Inheritance.Model.Species;
-import Inheritance.Model.animals;
+import Inheritance.Model.Animals;
 
-public class dog extends animals {
+public class Dog extends Animals {
     public boolean bark;
 
-    public dog(){
+    public Dog(){
         super();
         this.bark = true;
     }

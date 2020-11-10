@@ -1,6 +1,6 @@
 package Iteration;
 
-public class coins {
+public class Coins {
     public static void main(String[] args) {
         float cost = 4.58f;
         float cash = 20f;

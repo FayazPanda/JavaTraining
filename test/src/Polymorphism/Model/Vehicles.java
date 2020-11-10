@@ -1,22 +1,27 @@
 package Polymorphism.Model;
 
-public class vehicles {
+public abstract class Vehicles {
     private int wheels;
     private String engine;
     private int cYear;
+    private String plate;
+    private int brandFee;
 
-    public vehicles(){
+    public Vehicles(){
         super();
         wheels = 4;
         engine = "diesel";
         cYear = 2004;
+        plate = "LS55 FCN";
+        brandFee = 0;
     }
 
-    public vehicles(int wheels, String engine, int cYear) {
+    public Vehicles(int wheels, String engine, int cYear, String plate) {
         super();
         this.wheels = wheels;
         this.engine = engine;
         this.cYear = cYear;
+        this.plate = plate;
     }
 
     public int getWheels() {
@@ -41,5 +46,21 @@ public class vehicles {
 
     public void setcYear(int cYear) {
         this.cYear = cYear;
+    }
+
+    public String getPlate() {
+        return plate;
+    }
+
+    public void setPlate(String plate) {
+        this.plate = plate;
+    }
+
+    public int getBrandFee() {
+        return brandFee;
+    }
+
+    public void setBrandFee(int brandFee) {
+        this.brandFee = brandFee;
     }
 }

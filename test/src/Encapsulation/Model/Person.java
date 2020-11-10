@@ -1,17 +1,17 @@
 package Encapsulation.Model;
 
 
-public class person {
+public class Person {
 
     private String name;
     private int age;
 
-    public person(){
+    public Person(){
         name = "John Doe";
         age = 23;
     }
 
-    public person(String name,int age){
+    public Person(String name, int age){
         this.name = name;
         this.age = age;
     }

@@ -1,11 +1,11 @@
 package Encapsulation;
-import Encapsulation.Model.person;
+import Encapsulation.Model.Person;
 
-public class access {
+public class Access {
 
     public static void main(String[] args) {
 
-        person p = new person();
+        Person p = new Person();
         p.setName("Daniel");
         p.setAge(45);
         System.out.println(p.getName());
